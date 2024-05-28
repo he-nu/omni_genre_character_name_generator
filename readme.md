@@ -6,7 +6,7 @@ The internet is full of different character generators, but why should you need 
 
 TODO installation script
 
-``` python3
+``` bash
 sudo apt-get install screen \
 curl -fsSL https://ollama.com/install.sh | sh \
 ollama run phi3 \
