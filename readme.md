@@ -7,10 +7,12 @@ The internet is full of different character generators, but why should you need 
 TODO installation script
 
 ``` bash
-sudo apt-get install screen \
-curl -fsSL https://ollama.com/install.sh | sh \
-ollama run phi3 \
-python3 -m pip install -r requirements
+sudo apt-get update && \
+sudo apt-get install -y screen && \
+curl -fsSL https://ollama.com/install.sh -o install.sh && \
+chmod +x install.sh && \
+./install.sh && \
+python3 -m pip install -r requirements.txt
 ```
 
 ### Run in terminal
