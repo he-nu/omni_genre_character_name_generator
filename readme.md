@@ -6,21 +6,20 @@ The internet is full of different character generators, but why should you need 
 
 ![Image of the command line user interface](image.png "Interface")
 
-## Install requirements
+## Run installation script
 
-TODO installation script
+Installs a virtual environment and all of the requirements to run the application inside it. Opens the virtual environment.
 
 ``` bash
-sudo apt-get update && \
-sudo apt-get install -y screen && \
-curl -fsSL https://ollama.com/install.sh -o install.sh && \
-chmod +x install.sh && \
-./install.sh && \
-python3 -m pip install -r requirements.txt
+source auto_install.sh
 ```
 
-### Run in terminal
+### Run main
 
-``` python3
+``` bash
 python3 main.py
 ```
+
+### Disclaimer
+
+Do not take this too seriously. It's for fun.
